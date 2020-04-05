@@ -12,3 +12,9 @@ cd gonum
 go mod init https://github.com/elkaszcz/gonum
 
 ```
+
+Creating a new version
+```console
+git tag v1.0.0
+git push --tags
+```
