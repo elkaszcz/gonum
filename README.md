@@ -18,3 +18,8 @@ Creating a new version
 git tag v1.0.0
 git push --tags
 ```
+
+## Run
+```console
+go run app.go
+```
