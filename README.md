@@ -18,3 +18,14 @@ Creating a new version
 git tag v1.0.0
 git push --tags
 ```
+
+## Tips
+To output all the dependencies inside vendor directory (in module directory)
+```console
+go mod vendor
+```
+
+To use dependencies from vendor directory
+```console
+go build -mod vendor
+```
